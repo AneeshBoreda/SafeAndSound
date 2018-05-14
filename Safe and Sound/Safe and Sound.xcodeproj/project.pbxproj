@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F01463B2067A2EC00F0FCA5 /* nav.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F01463A2067A2EB00F0FCA5 /* nav.png */; };
+		3F01463D2067A40300F0FCA5 /* WarnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F01463C2067A40300F0FCA5 /* WarnViewController.swift */; };
+		3F01463F2067A84E00F0FCA5 /* heatmaptext.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F01463E2067A84D00F0FCA5 /* heatmaptext.png */; };
+		3F0146412067AE7900F0FCA5 /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0146402067AE7900F0FCA5 /* RouteViewController.swift */; };
+		3F0146432067B92700F0FCA5 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0146422067B92700F0FCA5 /* GoogleMaps.framework */; };
+		3F0146452067BA7700F0FCA5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F0146442067BA7700F0FCA5 /* GoogleMaps.bundle */; };
+		3F0146472067BAE800F0FCA5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0146462067BAE800F0FCA5 /* AVFoundation.framework */; };
+		3F0146492067BAF700F0FCA5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0146482067BAF700F0FCA5 /* CoreData.framework */; };
+		3F01464B2067BB0400F0FCA5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F01464A2067BB0300F0FCA5 /* CoreLocation.framework */; };
+		3F01464D2067BB0C00F0FCA5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F01464C2067BB0B00F0FCA5 /* CoreText.framework */; };
+		3F01464F2067BB1F00F0FCA5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F01464E2067BB1F00F0FCA5 /* GLKit.framework */; };
+		3F0146512067BB2D00F0FCA5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0146502067BB2D00F0FCA5 /* ImageIO.framework */; };
+		3F0146532067BB3700F0FCA5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0146522067BB3700F0FCA5 /* libc++.tbd */; };
+		3F0146552067BB4000F0FCA5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0146542067BB4000F0FCA5 /* libicucore.tbd */; };
+		3F0146572067BB4700F0FCA5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0146562067BB4700F0FCA5 /* libz.tbd */; };
+		3F0146592067BB4E00F0FCA5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0146582067BB4D00F0FCA5 /* OpenGLES.framework */; };
+		3F01465B2067BB5500F0FCA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F01465A2067BB5500F0FCA5 /* QuartzCore.framework */; };
+		3F01465D2067BB5B00F0FCA5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F01465C2067BB5B00F0FCA5 /* SystemConfiguration.framework */; };
+		3F01465F2067DF7400F0FCA5 /* DirectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F01465E2067DF7400F0FCA5 /* DirectViewController.swift */; };
+		3F0146612067EA0600F0FCA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0146602067EA0600F0FCA5 /* MapKit.framework */; };
+		3F8E0C892067382500C9B2E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E0C882067382500C9B2E0 /* AppDelegate.swift */; };
+		3F8E0C8B2067382500C9B2E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E0C8A2067382500C9B2E0 /* ViewController.swift */; };
+		3F8E0C902067382500C9B2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0C8F2067382500C9B2E0 /* Assets.xcassets */; };
+		3F8E0C932067382500C9B2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0C912067382500C9B2E0 /* LaunchScreen.storyboard */; };
+		3F8E0C9B2067384200C9B2E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0C9A2067384200C9B2E0 /* Main.storyboard */; };
+		3F8E0CA12067386C00C9B2E0 /* ede667da3dddcc6be676d12377432dd5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0C9C2067386A00C9B2E0 /* ede667da3dddcc6be676d12377432dd5.jpg */; };
+		3F8E0CA22067386C00C9B2E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0C9D2067386B00C9B2E0 /* Info.plist */; };
+		3F8E0CA32067386C00C9B2E0 /* cog-settings-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0C9E2067386B00C9B2E0 /* cog-settings-512.png */; };
+		3F8E0CA42067386C00C9B2E0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0C9F2067386C00C9B2E0 /* logo.png */; };
+		3F8E0CA52067386C00C9B2E0 /* globe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0CA02067386C00C9B2E0 /* globe1.png */; };
+		3F8E0CA72067388600C9B2E0 /* settingstext.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0CA62067388500C9B2E0 /* settingstext.png */; };
+		3F8E0CA92067389300C9B2E0 /* textlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0CA82067389200C9B2E0 /* textlogo.png */; };
+		3F8E0CAD2067390F00C9B2E0 /* SettViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E0CAC2067390F00C9B2E0 /* SettViewController.swift */; };
+		3F8E0CB32067446100C9B2E0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E0CB22067446100C9B2E0 /* MapViewController.swift */; };
+		3F8E0CB9206761A600C9B2E0 /* megans really cool heatmap 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0CB8206761A600C9B2E0 /* megans really cool heatmap 2.png */; };
+		3F8E0CBB206761B500C9B2E0 /* gradient hehe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0CBA206761B400C9B2E0 /* gradient hehe.png */; };
+		3F8E0CBD206762A200C9B2E0 /* megans really amazing heatmap3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0CBC206762A100C9B2E0 /* megans really amazing heatmap3.png */; };
+		3F8E0CBF206762C600C9B2E0 /* gradient hehe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E0CBE206762C600C9B2E0 /* gradient hehe.png */; };
+		AF35CFC7DEB54379F1DE0A69 /* libPods-Safe and Sound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A59DF5A1366F3B78CF24084 /* libPods-Safe and Sound.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35A53D1DC472A056B09F0097 /* Pods-Safe and Sound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safe and Sound.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safe and Sound/Pods-Safe and Sound.release.xcconfig"; sourceTree = "<group>"; };
+		3F01463A2067A2EB00F0FCA5 /* nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav.png; sourceTree = "<group>"; };
+		3F01463C2067A40300F0FCA5 /* WarnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarnViewController.swift; sourceTree = "<group>"; };
+		3F01463E2067A84D00F0FCA5 /* heatmaptext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heatmaptext.png; sourceTree = "<group>"; };
+		3F0146402067AE7900F0FCA5 /* RouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		3F0146422067B92700F0FCA5 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		3F0146442067BA7700F0FCA5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../GoogleMapSDKiOS-Storyboards-master/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		3F0146462067BAE800F0FCA5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F0146482067BAF700F0FCA5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3F01464A2067BB0300F0FCA5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F01464C2067BB0B00F0FCA5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3F01464E2067BB1F00F0FCA5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		3F0146502067BB2D00F0FCA5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		3F0146522067BB3700F0FCA5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3F0146542067BB4000F0FCA5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		3F0146562067BB4700F0FCA5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3F0146582067BB4D00F0FCA5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3F01465A2067BB5500F0FCA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F01465C2067BB5B00F0FCA5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F01465E2067DF7400F0FCA5 /* DirectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectViewController.swift; sourceTree = "<group>"; };
+		3F0146602067EA0600F0FCA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F8E0C852067382500C9B2E0 /* Safe and Sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe and Sound.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8E0C882067382500C9B2E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8E0C8A2067382500C9B2E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F8E0C8F2067382500C9B2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8E0C922067382500C9B2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8E0C942067382500C9B2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8E0C9A2067384200C9B2E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3F8E0C9C2067386A00C9B2E0 /* ede667da3dddcc6be676d12377432dd5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ede667da3dddcc6be676d12377432dd5.jpg; sourceTree = "<group>"; };
+		3F8E0C9D2067386B00C9B2E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../Safe&Sound/Info.plist"; sourceTree = "<group>"; };
+		3F8E0C9E2067386B00C9B2E0 /* cog-settings-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog-settings-512.png"; sourceTree = "<group>"; };
+		3F8E0C9F2067386C00C9B2E0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		3F8E0CA02067386C00C9B2E0 /* globe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe1.png; sourceTree = "<group>"; };
+		3F8E0CA62067388500C9B2E0 /* settingstext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingstext.png; sourceTree = "<group>"; };
+		3F8E0CA82067389200C9B2E0 /* textlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textlogo.png; sourceTree = "<group>"; };
+		3F8E0CAC2067390F00C9B2E0 /* SettViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettViewController.swift; sourceTree = "<group>"; };
+		3F8E0CB22067446100C9B2E0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3F8E0CB8206761A600C9B2E0 /* megans really cool heatmap 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "megans really cool heatmap 2.png"; sourceTree = "<group>"; };
+		3F8E0CBA206761B400C9B2E0 /* gradient hehe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient hehe.png"; sourceTree = "<group>"; };
+		3F8E0CBC206762A100C9B2E0 /* megans really amazing heatmap3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "megans really amazing heatmap3.png"; sourceTree = "<group>"; };
+		3F8E0CBE206762C600C9B2E0 /* gradient hehe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gradient hehe.png"; path = "../../../gradient hehe.png"; sourceTree = "<group>"; };
+		4A59DF5A1366F3B78CF24084 /* libPods-Safe and Sound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Safe and Sound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		990A1A9DF7E5044A63912750 /* Pods-Safe and Sound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safe and Sound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Safe and Sound/Pods-Safe and Sound.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8E0C822067382500C9B2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F01465D2067BB5B00F0FCA5 /* SystemConfiguration.framework in Frameworks */,
+				3F01465B2067BB5500F0FCA5 /* QuartzCore.framework in Frameworks */,
+				3F0146592067BB4E00F0FCA5 /* OpenGLES.framework in Frameworks */,
+				3F0146572067BB4700F0FCA5 /* libz.tbd in Frameworks */,
+				3F0146552067BB4000F0FCA5 /* libicucore.tbd in Frameworks */,
+				3F0146532067BB3700F0FCA5 /* libc++.tbd in Frameworks */,
+				3F0146512067BB2D00F0FCA5 /* ImageIO.framework in Frameworks */,
+				3F0146612067EA0600F0FCA5 /* MapKit.framework in Frameworks */,
+				3F01464F2067BB1F00F0FCA5 /* GLKit.framework in Frameworks */,
+				3F01464D2067BB0C00F0FCA5 /* CoreText.framework in Frameworks */,
+				3F01464B2067BB0400F0FCA5 /* CoreLocation.framework in Frameworks */,
+				3F0146492067BAF700F0FCA5 /* CoreData.framework in Frameworks */,
+				3F0146472067BAE800F0FCA5 /* AVFoundation.framework in Frameworks */,
+				3F0146432067B92700F0FCA5 /* GoogleMaps.framework in Frameworks */,
+				AF35CFC7DEB54379F1DE0A69 /* libPods-Safe and Sound.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8E0C7C2067382500C9B2E0 = {
+			isa = PBXGroup;
+			children = (
+				3F8E0C872067382500C9B2E0 /* Safe and Sound */,
+				3F8E0C862067382500C9B2E0 /* Products */,
+				ACD404A8440AEFE41223E59D /* Pods */,
+				BFC3BB506EB55D806B95FD3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8E0C862067382500C9B2E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8E0C852067382500C9B2E0 /* Safe and Sound.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8E0C872067382500C9B2E0 /* Safe and Sound */ = {
+			isa = PBXGroup;
+			children = (
+				3F8E0C882067382500C9B2E0 /* AppDelegate.swift */,
+				3F8E0CB22067446100C9B2E0 /* MapViewController.swift */,
+				3F0146402067AE7900F0FCA5 /* RouteViewController.swift */,
+				3F01463C2067A40300F0FCA5 /* WarnViewController.swift */,
+				3F8E0C8A2067382500C9B2E0 /* ViewController.swift */,
+				3F8E0CAC2067390F00C9B2E0 /* SettViewController.swift */,
+				3F8E0C9A2067384200C9B2E0 /* Main.storyboard */,
+				3F01465E2067DF7400F0FCA5 /* DirectViewController.swift */,
+				3F8E0C8F2067382500C9B2E0 /* Assets.xcassets */,
+				3F8E0C9E2067386B00C9B2E0 /* cog-settings-512.png */,
+				3F8E0CB8206761A600C9B2E0 /* megans really cool heatmap 2.png */,
+				3F8E0CBC206762A100C9B2E0 /* megans really amazing heatmap3.png */,
+				3F8E0C9C2067386A00C9B2E0 /* ede667da3dddcc6be676d12377432dd5.jpg */,
+				3F8E0CBE206762C600C9B2E0 /* gradient hehe.png */,
+				3F8E0CA02067386C00C9B2E0 /* globe1.png */,
+				3F8E0C9D2067386B00C9B2E0 /* Info.plist */,
+				3F01463A2067A2EB00F0FCA5 /* nav.png */,
+				3F8E0CA82067389200C9B2E0 /* textlogo.png */,
+				3F01463E2067A84D00F0FCA5 /* heatmaptext.png */,
+				3F8E0C9F2067386C00C9B2E0 /* logo.png */,
+				3F8E0CBA206761B400C9B2E0 /* gradient hehe.png */,
+				3F8E0CA62067388500C9B2E0 /* settingstext.png */,
+				3F8E0C912067382500C9B2E0 /* LaunchScreen.storyboard */,
+				3F8E0C942067382500C9B2E0 /* Info.plist */,
+			);
+			path = "Safe and Sound";
+			sourceTree = "<group>";
+		};
+		ACD404A8440AEFE41223E59D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				990A1A9DF7E5044A63912750 /* Pods-Safe and Sound.debug.xcconfig */,
+				35A53D1DC472A056B09F0097 /* Pods-Safe and Sound.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFC3BB506EB55D806B95FD3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0146602067EA0600F0FCA5 /* MapKit.framework */,
+				3F01465C2067BB5B00F0FCA5 /* SystemConfiguration.framework */,
+				3F01465A2067BB5500F0FCA5 /* QuartzCore.framework */,
+				3F0146582067BB4D00F0FCA5 /* OpenGLES.framework */,
+				3F0146562067BB4700F0FCA5 /* libz.tbd */,
+				3F0146542067BB4000F0FCA5 /* libicucore.tbd */,
+				3F0146522067BB3700F0FCA5 /* libc++.tbd */,
+				3F0146502067BB2D00F0FCA5 /* ImageIO.framework */,
+				3F01464E2067BB1F00F0FCA5 /* GLKit.framework */,
+				3F01464C2067BB0B00F0FCA5 /* CoreText.framework */,
+				3F01464A2067BB0300F0FCA5 /* CoreLocation.framework */,
+				3F0146482067BAF700F0FCA5 /* CoreData.framework */,
+				3F0146462067BAE800F0FCA5 /* AVFoundation.framework */,
+				3F0146442067BA7700F0FCA5 /* GoogleMaps.bundle */,
+				3F0146422067B92700F0FCA5 /* GoogleMaps.framework */,
+				4A59DF5A1366F3B78CF24084 /* libPods-Safe and Sound.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8E0C842067382500C9B2E0 /* Safe and Sound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8E0C972067382500C9B2E0 /* Build configuration list for PBXNativeTarget "Safe and Sound" */;
+			buildPhases = (
+				12A0D17C6002EFCC36F6AF1C /* [CP] Check Pods Manifest.lock */,
+				3F8E0C812067382500C9B2E0 /* Sources */,
+				3F8E0C822067382500C9B2E0 /* Frameworks */,
+				3F8E0C832067382500C9B2E0 /* Resources */,
+				F80D1C72DDB0B15DFB90853D /* [CP] Embed Pods Frameworks */,
+				164AD3EB6707A29359905D88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safe and Sound";
+			productName = "Safe and Sound";
+			productReference = 3F8E0C852067382500C9B2E0 /* Safe and Sound.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8E0C7D2067382500C9B2E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = HackUVA;
+				TargetAttributes = {
+					3F8E0C842067382500C9B2E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3F8E0C802067382500C9B2E0 /* Build configuration list for PBXProject "Safe and Sound" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8E0C7C2067382500C9B2E0;
+			productRefGroup = 3F8E0C862067382500C9B2E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8E0C842067382500C9B2E0 /* Safe and Sound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8E0C832067382500C9B2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8E0CBB206761B500C9B2E0 /* gradient hehe.png in Resources */,
+				3F0146452067BA7700F0FCA5 /* GoogleMaps.bundle in Resources */,
+				3F8E0CA12067386C00C9B2E0 /* ede667da3dddcc6be676d12377432dd5.jpg in Resources */,
+				3F8E0CBF206762C600C9B2E0 /* gradient hehe.png in Resources */,
+				3F8E0CA72067388600C9B2E0 /* settingstext.png in Resources */,
+				3F8E0CA32067386C00C9B2E0 /* cog-settings-512.png in Resources */,
+				3F8E0C932067382500C9B2E0 /* LaunchScreen.storyboard in Resources */,
+				3F8E0C902067382500C9B2E0 /* Assets.xcassets in Resources */,
+				3F01463F2067A84E00F0FCA5 /* heatmaptext.png in Resources */,
+				3F8E0CA42067386C00C9B2E0 /* logo.png in Resources */,
+				3F8E0CA22067386C00C9B2E0 /* Info.plist in Resources */,
+				3F01463B2067A2EC00F0FCA5 /* nav.png in Resources */,
+				3F8E0C9B2067384200C9B2E0 /* Main.storyboard in Resources */,
+				3F8E0CB9206761A600C9B2E0 /* megans really cool heatmap 2.png in Resources */,
+				3F8E0CBD206762A200C9B2E0 /* megans really amazing heatmap3.png in Resources */,
+				3F8E0CA52067386C00C9B2E0 /* globe1.png in Resources */,
+				3F8E0CA92067389300C9B2E0 /* textlogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12A0D17C6002EFCC36F6AF1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safe and Sound-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		164AD3EB6707A29359905D88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Safe and Sound/Pods-Safe and Sound-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Safe and Sound/Pods-Safe and Sound-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80D1C72DDB0B15DFB90853D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Safe and Sound/Pods-Safe and Sound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8E0C812067382500C9B2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8E0C8B2067382500C9B2E0 /* ViewController.swift in Sources */,
+				3F8E0C892067382500C9B2E0 /* AppDelegate.swift in Sources */,
+				3F01465F2067DF7400F0FCA5 /* DirectViewController.swift in Sources */,
+				3F0146412067AE7900F0FCA5 /* RouteViewController.swift in Sources */,
+				3F01463D2067A40300F0FCA5 /* WarnViewController.swift in Sources */,
+				3F8E0CAD2067390F00C9B2E0 /* SettViewController.swift in Sources */,
+				3F8E0CB32067446100C9B2E0 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F8E0C912067382500C9B2E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8E0C922067382500C9B2E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8E0C952067382500C9B2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F8E0C962067382500C9B2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8E0C982067382500C9B2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990A1A9DF7E5044A63912750 /* Pods-Safe and Sound.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3N74P329Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Safe and Sound/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.safeandsound.SafenSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8E0C992067382500C9B2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A53D1DC472A056B09F0097 /* Pods-Safe and Sound.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F3N74P329Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Safe and Sound/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.safeandsound.SafenSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8E0C802067382500C9B2E0 /* Build configuration list for PBXProject "Safe and Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8E0C952067382500C9B2E0 /* Debug */,
+				3F8E0C962067382500C9B2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8E0C972067382500C9B2E0 /* Build configuration list for PBXNativeTarget "Safe and Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8E0C982067382500C9B2E0 /* Debug */,
+				3F8E0C992067382500C9B2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8E0C7D2067382500C9B2E0 /* Project object */;
+}
